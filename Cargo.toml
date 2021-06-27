@@ -13,4 +13,4 @@ keybind = "0.1.0"
 tokio = { version = "1", features = ["full"] }
 serde = {version = "1.0.126", features = ["derive"]}
 serde_json = "1.0.64"
-dirs = "*"
+dirs = "3.0.2"
