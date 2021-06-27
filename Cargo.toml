@@ -1,6 +1,6 @@
 [package]
 name = "ipaste"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["owocean <imdownudnerthere@gmail.com>"]
 edition = "2018"
 
@@ -11,3 +11,6 @@ clipboard = "0.5.0"
 ipfs-api = "0.11.0"
 keybind = "0.1.0"
 tokio = { version = "1", features = ["full"] }
+serde = {version = "1.0.126", features = ["derive"]}
+serde_json = "1.0.64"
+dirs = "*"
